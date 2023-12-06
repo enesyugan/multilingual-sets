@@ -36,13 +36,13 @@ The motivation behind this collection is to provide a multilingual test environm
 
   To append your own data, you need a tab-separated file with:
 
-    1. UIDs as described above: `client_id_audiofilename` (without file extension).
-    2. Path to your audio file saved in 16k samplerate.
+  1. **UIDs as described above: `client_id_audiofilename` (without file extension).**
+  2. **Path to your audio file saved in 16k samplerate.**
+ 
+  Then, execute the following script:
 
-    Then, execute the following script:
-
-    ```bash
-    sh DO.onlyaudio.sh
+  ```bash
+  sh DO.onlyaudio.sh
 
 
 
