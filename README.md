@@ -41,7 +41,7 @@ The motivation behind this collection is to provide a multilingual test environm
  
   Then, execute the following script:
 
-  sh DO.onlyaudio.sh
+        ./DO.onlyaudio.sh
 
 
 
