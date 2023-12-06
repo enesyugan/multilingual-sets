@@ -17,7 +17,7 @@ The motivation behind this collection is to provide a multilingual test environm
       The generation script expects you to have already downloaded the CommonVoice test splits and saved them in a text file with tab-separated columns, including at least the following columns:
 
       ```plaintext
-      UID | AUDIO_PATH | TEXT
+      UID   AUDIO_PATH  TEXT
 
 ## Usage/Provided Files
 
