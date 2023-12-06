@@ -7,7 +7,7 @@ mkdir -p $out
 python make_multidata_set.py \
     -stms $de_stm $en_stm \
     -langs de en \
-    -outa $out/de.en.wav -outt $out/de.en.stm -outl $out/de.en.uids 
+    -outa $out/de.en.wav -outt $out/de.en.lbl -outl $out/de.en.uids 
     #&
 
 # Store the process ID (PID) of the first script
@@ -18,7 +18,7 @@ python make_multidata_set.py \
     -stms $de_stm $en_stm \
     -langs de en \
     -mix_style long \
-    -outa $out/de.en.long.wav -outt $out/de.en.long.stm -outl $out/de.en.long.uids # &
+    -outa $out/de.en.long.wav -outt $out/de.en.long.lbl -outl $out/de.en.long.uids # &
 
 # Store the PID of the second script
 pid_script2=$!
