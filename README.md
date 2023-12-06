@@ -34,7 +34,7 @@ The motivation behind this collection is to provide a multilingual test environm
 
   ## Usage
 
-    To append your own data, you need a tab-separated file with:
+  To append your own data, you need a tab-separated file with:
 
     1. UIDs as described above: `client_id_audiofilename` (without file extension).
     2. Path to your audio file saved in 16k samplerate.
